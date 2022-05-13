@@ -1,0 +1,12 @@
+Environment set up
+
+1. git clone https://github.com/cosmiq/solaris.git
+2. cd solaris
+3. conda create -n solaris tensorflow-gpu==1.13.1
+4. conda activate solaris
+5. conda install -c conda-forge  gdal=3.0.3
+6. conda install rtree
+7. pip install solaris
+8. pip install imagecodecs
+9. pip install geopandas
+10. pip install jupyter
